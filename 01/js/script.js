@@ -2,5 +2,5 @@
 
 const websiteBody = document.body;
 
-websiteBody.style = "background: yellow";
+websiteBody.style = "background: blue";
 
