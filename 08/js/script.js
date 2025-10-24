@@ -27,8 +27,8 @@
 const getWordElem = document.getElementById("word");
 
 getWordElem.addEventListener("click", function() {
-    this.classList.add("fade");
-    setTimeout(()=>this.classList.remove("fade"),1000);
+    this.classList.add("bounce");
+    setTimeout(()=>this.classList.remove("bounce"),1000);
 });
 
 

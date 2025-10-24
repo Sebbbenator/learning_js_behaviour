@@ -9,11 +9,11 @@ const getImage = document.getElementById("imagePlaceholder");
 changeImgBtn.addEventListener("click", function() {
 
     if (this.textContent == "Before"){
-        getImage.src= "img/before.png";
+        getImage.src= "img/before.jpg";
         this.textContent = "After";
     }
     else {
-        getImage.src= "img/after.png";
+        getImage.src= "img/after.jpg";
         this.textContent = "Before";
      }
 });
